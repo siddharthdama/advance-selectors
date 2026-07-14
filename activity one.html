@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My food menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #9c0cef;
+            padding: 30px;
+            text-align: center;
+            font-size: 16px;
+        }
+        h1 {
+            color: rgb(26, 220, 32);
+        }
+        h1+p {
+            background-color: rgba(232, 54, 10, 0.1);
+            color: rgb(227, 16, 202);
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: rgb(237, 174, 25);
+            display: inline-block;
+        }
+        ul {
+            margin-top: 20px;
+            padding: 0;
+        }
+        ul>li {
+            list-style-type: none;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: rgb(67, 218, 21);
+            font-weight: bold;
+            padding:10px 20px;
+            margin: 6px auto ;
+            width: 260px;
+            background-color: rgba(232, 54, 10, 0.1);
+            border-radius: 8px;
+        }
+        ul li:nth-child(3) {
+            background-color: rgba(232, 54, 10, 0.2);
+        }
+        .p1 {
+
+            color: rgb(22, 174, 224);
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 20px;
+            text-decoration: underline;
+            font-style: italic;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .p1::first-letter {
+            font-size: 220%;
+            font-weight: bold;
+            color: rgb(20, 93, 241);
+        }
+
+        .links   {
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: underline;
+        }
+        a {
+            color: rgb(57, 11, 239);
+            font-weight: bold;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            background-color: rgba(232, 54, 10, 0.1);
+            font-size: 15px;
+            margin: 0 10px;
+            border: 2px solid rgb(15, 22, 231);
+        }
+        a:hover {
+            background-color: rgba(91, 226, 7, 0.2);
+            color: rgb(91, 226, 7);
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1> my food menu</h1>
+    <p> pick your favourite dish</p>
+    <ul>
+        <li>chowmin </li>
+        <li> sushi</li>
+        <li> dimsum</li>
+        <li>momos</li>
+        <li>soup</li>       
+    </ul>
+    <p class="p1">every dish on this menu is made with lots of love and lots of flavour .try them all and find your favourite</p>
+    <div class="links">
+        <a href="#">order now</a>
+        <a href="#">see more</a>
+
+    </div>
+
+</body>
+</html>
